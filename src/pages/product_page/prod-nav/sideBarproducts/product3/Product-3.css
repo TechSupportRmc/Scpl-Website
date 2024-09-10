@@ -1,0 +1,228 @@
+
+.prod-3-right-content {
+    position: absolute;
+    margin-top: 2.7rem;
+    margin-left: 25rem;
+    border: 1px solid #e6ebed;;
+    width: 45rem;
+    height: 30.5rem;
+  }
+  .prod-3-right-content h1{
+    text-align: center;
+    color: #1cba9f;
+    font-weight: bold;
+  }
+  .prod-3-right-content p{
+    text-align: center;
+    color: black;
+  }
+  .prod-3-right-content span{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+  }
+  .product3-content{
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+  }
+  .product3-content h3{
+    color: #1cba9f;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+ 
+  .product3-content p{
+    margin-top: -9px;
+    text-align: left;
+}
+
+.product-3-image{
+  position: absolute;
+  width: 12rem;
+  height: 2rem;
+  margin-top: -14rem;
+  margin-left: 32rem;
+}
+.product-3-image img{
+    width: 12rem;
+}
+.product-3-btn{
+  position: absolute;
+  margin-left: 19rem;
+  margin-top: 2rem;
+  width: 8rem;
+  height: 2rem;
+  background-color: #1cba9f;
+  color: white;
+  border: none;
+}
+
+.product-3-btn a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* Responsive Styles ... */
+/* Styles for small screens (mobile) */
+@media only screen and (max-width: 767px) {
+  .prod-3-right-content {
+    margin-left: 1rem;
+    position: absolute;
+    border: 1px solid #e6ebed;
+    width: 90%;
+    margin-top: 28.6rem;
+    height: 65%;
+  }
+
+  .prod-3-right-content h1 {
+    text-align: center;
+    color: #1cba9f;
+  }
+  .prod-right-content p{
+    font-size: 12px;
+  }
+
+  .product3-content {
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+  }
+
+  .product3-content h3 {
+    color: #1cba9f;
+  }
+
+  .product3-content p {
+    margin-top: 10px;
+    text-align: left;
+  }
+
+  .product-3-image {
+    margin-left: 14rem;
+    position: absolute;
+    width: 58%;
+    margin-top: -13rem;
+  }
+
+  .product-3-image img {
+    width: 45%;
+  }
+
+  .product-3-btn {
+    margin-left: 6rem;
+    position: absolute;
+    margin-top: 1.1rem;
+    width: 43%;
+    background-color: #1cba9f;
+    color: white;
+    border: none;
+  }
+
+  .product-3-btn a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+/* Styles for medium screens (tablet) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .prod-3-right-content {
+    margin-left: 1rem;
+    position: absolute;
+    border: 1px solid #e6ebed;
+    width: 90%;
+    margin-top: 28.6rem;
+    height: 41%;
+  }
+
+  .prod-3-right-content h1 {
+    text-align: center;
+    color: #1cba9f;
+  }
+  .prod-right-content p{
+    font-size: 12px;
+  }
+
+  .product3-content {
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+  }
+
+  .product3-content h3 {
+    color: #1cba9f;
+  }
+
+  .product3-content p {
+    margin-top: 10px;
+    text-align: left;
+  }
+
+  .product-3-image {
+    margin-left: 33rem;
+    position: absolute;
+    width: 58%;
+    margin-top: -17rem;
+  }
+
+  .product-3-image img {
+    width: 45%;
+  }
+
+  .product-3-btn {
+    margin-left: 21rem;
+    position: absolute;
+    margin-top: 1.2rem;
+    width: 20%;
+    background-color: #1cba9f;
+    color: white;
+    border: none;
+    margin-bottom: 5rem;
+  }
+
+  .product-3-btn a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+/* Styles for large screens (desktop) */
+@media only screen and (min-width: 992px) {
+  .prod-3-right-content {
+    position: absolute;
+    margin-top: 2.7rem;
+    margin-left: 25rem;
+    border: 1px solid #e6ebed;
+    width: 45rem;
+    height: 30.5rem;
+  }
+
+  .product3-content {
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+  }
+
+  .product-3-image {
+    position: absolute;
+    width: 12rem;
+    height: 2rem;
+    margin-top: -17rem;
+    margin-left: 32rem;
+  }
+
+  .product-3-btn {
+    position: absolute;
+    margin-left: 19rem;
+    margin-top: 2rem;
+    width: 8rem;
+    height: 2rem;
+    background-color: #1cba9f;
+    color: white;
+    border: none;
+  }
+
+  .product-3-btn a {
+    color: white;
+    text-decoration: none;
+  }
+}

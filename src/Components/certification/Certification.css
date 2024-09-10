@@ -1,0 +1,87 @@
+/* slider section */
+.main_certi {
+    /* min-height: 100vh; */
+    display: flex;
+    place-content: center;
+    /* background: rgb(233, 150, 150); */
+}
+.section_certificate h1{
+    color: #1cba9f;
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    position: relative;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.contain_certi {
+    height: 180px;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+.slide-contain-certi {
+    display: flex;
+    width: calc(250px * 18);
+    animation: scroll 20s linear infinite;
+    animation-play-state: running; /* Set the default state to running */
+}
+
+.contain_certi:hover .slide-contain-certi {
+    animation-play-state: paused; /* Pause the animation on hover */
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 9));
+    }
+}
+
+.slide-image-certi {
+    height: 180px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+}
+
+.slide-image-certi img {
+    width: 75%;
+    transition: transform 1s;
+}
+
+.slide-image-certi img:hover {
+    transform: translateZ(20px);
+}
+
+/* Media query for 1024px width */
+@media only screen and (min-width: 1500px) {
+    .section_certificate h1::before{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 990px) and (min-width: 768px) {
+    .section_certificate h1::before{
+        left: 19rem;
+    }
+}
+
+/* Media query for 768px width */
+@media only screen and (max-width: 767px) {
+  
+    .section_certificate h1::before {
+       display: none;
+    }
+
+
+}

@@ -1,0 +1,218 @@
+.bg-product_1 {
+  height: 90vh;
+  overflow: hidden;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  clip-path: polygon(100% 0, 0 0, 0 100%, 25% 89%, 100% 100%);
+  background-image: radial-gradient(circle at top right, rgba(255, 255, 255, 0) 20%, #524944 100%), url('../../../../../public//product-mg//toothpaste.jpg') !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 2rem;
+}
+
+.product_1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  opacity: 0.87;
+}
+
+.product_1-overlay {
+  position: absolute;
+  top: 60%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  z-index: 2;
+}
+
+.product_1-overlay h2 {
+  font-size: 2.7rem;
+  margin-bottom: 10px;
+  margin-left: 14rem;
+}
+
+.product_1-overlay P {
+  color: #fff;
+  margin-left: 16rem;
+}
+
+.product_1-overlay img {
+  position: relative;
+  width: 9.5rem;
+  height: auto;
+  margin-left: 13rem;
+}
+
+.product_1-side_data {
+  margin-top: 12.8rem;
+  margin-left: 47rem;
+  font-size: 1.5rem;
+}
+
+.molecular_p-1,
+.wt_p-1,
+.cas_p-1 {
+  margin-bottom: 1rem;
+}
+
+.molecular_p-1 h3,
+.wt_p-1 h3,
+.cas_p-1 h3 {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.molecular_p-1 h4,
+.wt_p-1 h4,
+.cas_p-1 h4 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.2rem;
+}
+
+.two-column-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 3rem;
+}
+
+.left-side,
+.right-side {
+  width: 48%;
+  /* Adjust the width as needed */
+}
+
+/* Additional styling for better aesthetics */
+.left-side {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.left-side h3 {
+  color: #1cba9f;
+  margin-bottom: 1rem;
+  position: relative;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.left-side h3::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4rem;
+  height: 2px;
+  /* Adjust the height of the line as needed */
+  background-color: #1cba9f;
+}
+
+.left-side p {
+  margin-bottom: 1rem;
+}
+
+.left-side span {
+  color: black;
+  font-weight: 660;
+}
+
+.right-side {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.right-side h4{
+  font-size: 1rem;
+  font-weight: bold;
+}
+.right-side p {
+  margin-bottom: 2rem;
+  font-size: 0.86rem;
+}
+
+.notes-product_1 {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.notes-product_1 span {
+  font-weight: 660;
+  color: black;
+}
+
+
+
+/* Medi queeries */
+
+
+
+
+@media screen and (max-width: 600px) {
+
+  .bg-product_1{
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+
+  .product_1-side_data {
+    display: none;
+  }
+
+  .product_1-overlay {
+    top: 40%;
+    /* Adjust vertical position for even smaller screens */
+    left: 50%;
+    /* Adjust horizontal position for even smaller screens */
+    transform: translate(-50%, -50%);
+  }
+
+  .product_1 h2 {
+    font-size: 2rem;
+    margin-left: -2rem;
+    margin-bottom: 1rem;
+  }
+
+  .product_1 p {
+    margin-top: 6rem;
+    margin-left: -2rem;
+  }
+
+  .product_1-overlay img {
+    width: 8rem;
+    margin-left: 1rem;
+  }
+
+  .two-column-section {
+    margin-top: 3rem;
+  }
+
+  .notes-product_1 {
+    margin-top: -18rem;
+    margin-bottom: -24rem;
+  }
+
+}
+
+
+/* @media only screen and (max-width: 1500px) {
+
+  .product_1-side_data{
+    margin-top: 24.5rem;
+  }
+} */
+
+@media  screen and (max-width:1500px) {
+  .product_1-side_data{
+    font-size: 1.5rem;
+  }
+}

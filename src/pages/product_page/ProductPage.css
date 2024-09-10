@@ -1,0 +1,13 @@
+.product-heading {
+    margin-left: 12rem;
+    color: #1cba9f;
+    font-weight: bold;
+  }
+
+
+@media only screen and (max-width: 767px) {
+  .product-heading{
+    margin-left: 2rem;
+    font-size: 3rem;
+  }
+}

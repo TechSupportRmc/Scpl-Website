@@ -1,0 +1,82 @@
+.container_signup {
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(90deg, #558dca 0%, #1cba9f 50%, #558dca 100%);
+
+  }
+  
+  .card_signup {
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    width: 400px;
+    height: 362px;
+    background-color: #ffffff;
+    padding: 10px 30px;
+    margin-top: 12rem;
+    margin-bottom: 3rem;
+  }
+  
+  .card_title_signup {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .card_title_signup h1 {
+    font-size: 26px;
+    font-weight: bold;
+  }
+  .form_sign{
+    margin-top: 2.5rem;
+  }
+  .form_sign input {
+    margin: 10px 0;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid black;
+    /* border: none; */
+    outline: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+  }
+  
+  .signin_btn {
+    background-color: #0d9649;
+    color: #ffffff;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 15px;
+    width: 100%;
+    margin-top: 3rem;
+  }
+  
+  .card_terms {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .card_terms input[type="checkbox"] {
+    background-color: #e2e2e2;
+  }
+  
+  .card_terms span {
+    margin: 5px;
+    font-size: 13px;
+  }
+  
+  .card a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+
+  @media (max-width:768px){
+    .container_signup{
+      margin-bottom: -20rem;
+    }
+  }

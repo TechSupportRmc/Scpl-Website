@@ -1,0 +1,230 @@
+.prod-8-right-content {
+    position: absolute;
+    margin-top: 2.8rem;
+    margin-left: 25rem;
+    border: 1px solid #e8ebed;
+    width: 45rem;
+    height: 30.5rem;
+  }
+  
+  .prod-8-right-content h1 {
+    text-align: center;
+    color: #1cba9f;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .prod-8-right-content p {
+    text-align: center;
+    color: black;
+  }
+  
+  .prod-8-right-content span {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .product8-content {
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+  }
+  
+  .product8-content h3 {
+    color: #1cba9f;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .product8-content p {
+    margin-top: -9px;
+    text-align: left;
+  }
+  
+  .product-8-image {
+    position: absolute;
+    width: 12rem;
+    height: 2rem;
+    margin-top: -12rem;
+    margin-left: 32rem;
+  }
+  
+  .product-8-image img {
+    width: 12rem;
+  }
+  
+  .product-8-btn {
+    position: absolute;
+    margin-left: 19rem;
+    margin-top: 5.5rem;
+    width: 8rem;
+    height: 2rem;
+    background-color: #1cba9f;
+    color: white;
+    border: none;
+  }
+  
+  .product-8-btn a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  
+  /* Styles for small screens (mobile) */
+  @media only screen and (max-width: 868px) {
+    .prod-8-right-content {
+      margin-left: 1rem;
+      position: absolute;
+      border: 1px solid #e8ebed;
+      width: 90%;
+      margin-top: 29rem;
+      height: 85%;
+    }
+  
+    .prod-8-right-content h1{
+      text-align: center;
+      color: #1cba9f;
+    }
+  
+    .product8-content {
+      margin-top: 1.5rem;
+      margin-left: 2rem;
+    }
+  
+    .product8-content h3 {
+      color: #1cba9f;
+    }
+  
+    .product8-content p {
+      margin-top: 10px;
+      text-align: left;
+    }
+  
+    .product-8-image {
+      margin-left: 12.5rem;
+      position: absolute;
+      width: 44%;
+      margin-top: -13rem;
+    }
+  
+    .product-8-image img {
+      width: 85%;
+    }
+  
+    .product-8-btn {
+      margin-left: 8rem;
+      position: absolute;
+      margin-top: 1.5rem;
+      width: 43%;
+      background-color: #1cba9f;
+      color: white;
+      border: none;
+    }
+  
+    .product-8-btn a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+  
+  /* Styles for medium screens (tablet) */
+  @media only screen and (min-width: 888px) and (max-width: 991px) {
+    .prod-8-right-content {
+      margin-left: 1rem;
+      position: absolute;
+      border: 1px solid #e8ebed;
+      width: 90%;
+      margin-top: 29rem;
+      height: 41%;
+    }
+  
+    .prod-8-right-content h1{
+      text-align: center;
+      color: #1cba9f;
+    }
+  
+    .product8-content {
+      margin-top: 1.5rem;
+      margin-left: 2rem;
+    }
+  
+    .product8-content h3 {
+      color: #1cba9f;
+    }
+  
+    .product8-content p {
+      margin-top: 10px;
+      text-align: left;
+    }
+  
+    .product-8-image {
+      margin-left: 33rem;
+      position: absolute;
+      width: 58%;
+      margin-top: -18rem;
+    }
+  
+    .product-8-image img {
+      width: 50%;
+    }
+  
+    .product-8-btn {
+      margin-left: 21rem;
+      position: absolute;
+      margin-top: 1.2rem;
+      width: 20%;
+      background-color: #1cba9f;
+      color: white;
+      border: none;
+      margin-bottom: 5rem;
+    }
+  
+    .product-8-btn a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+  
+  /* Styles for large screens (desktop) */
+  @media only screen and (min-width: 992px) {
+    .prod-8-right-content {
+      position: absolute;
+      margin-top: 2.8rem;
+      margin-left: 25rem;
+      border: 1px solid #e8ebed;
+      width: 45rem;
+      height: 30.5rem;
+    }
+  
+    .product8-content {
+      margin-top: 1.5rem;
+      margin-left: 2rem;
+    }
+  
+    .product-8-image {
+      position: absolute;
+      width: 14rem;
+      height: 2rem;
+      margin-top: -18rem;
+      margin-left: 30rem;
+    }
+  
+  
+    .product-8-btn {
+      position: absolute;
+      margin-left: 19rem;
+      margin-top: 2.5rem;
+      width: 8rem;
+      height: 2rem;
+      background-color: #1cba9f;
+      color: white;
+      border: none;
+    }
+  
+    .product-8-btn a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+  

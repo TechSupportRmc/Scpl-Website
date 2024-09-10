@@ -1,0 +1,155 @@
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 2rem auto; /* Centers the table horizontally and adds top and bottom margin */
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  /* border-bottom: 1px solid #ddd; */
+  border: 1.5px solid rgba(0, 0, 0, 0.804);
+  font-weight: 500;
+}
+
+th {
+  background-color: #0d9649;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.editButton {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.deleteButton {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  margin-left: 2.5rem;
+}
+
+.editButtonsocial {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.deleteButtonsocial {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+/* AdminNavbar.css */
+.editForm {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  z-index: 999;
+}
+
+.editForm h2 {
+  margin-top: 0;
+}
+
+.editForm label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.editForm input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.editForm button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.editForm button:hover {
+  background-color: #0056b3;
+}
+
+.addButtonSocial {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  margin-left: 66rem;
+  margin-bottom: 1.3rem;
+}
+
+.popupForm {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  z-index: 999;
+}
+
+.popupForm h2 {
+  margin-top: 0;
+}
+
+.popupForm label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.popupForm input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.popupForm button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.popupForm button:hover {
+  background-color: #0056b3;
+}
