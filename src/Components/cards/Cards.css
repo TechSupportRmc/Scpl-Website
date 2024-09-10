@@ -1,0 +1,166 @@
+/* Cards.css */
+
+/* Default styles for all screen sizes */
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: -5.5rem;
+  margin-bottom: 3rem;
+  padding: 3.5rem 3.5rem;
+  background-image: linear-gradient(to bottom, #fff 30%, #9dffb1 100%);
+}
+
+.cards {
+  border-radius: 8px;
+  overflow: hidden;
+  width: calc(33.33% - 16px);
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-icon {
+  height: 5rem;
+  width: 5rem;
+  position: relative;
+  padding: 16px;
+  background-color: #1cba9f;
+  border: 4px solid white;
+  border-radius: 50%;
+  margin-top: 0.5rem;
+  margin-left: 8.5rem;
+  margin-bottom: -2rem;
+}
+
+.cards-icon svg {
+  position: absolute;
+  width: 5rem;
+  height: 2.5rem;
+  color: white;
+  margin-left: -1.26rem;
+}
+
+.cards-content {
+  flex-grow: 1;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.cards-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+  color: black;
+}
+
+.cards-text {
+  font-size: 1rem;
+  color: black;
+  margin-bottom: 1rem;
+  font-weight: 450;
+}
+
+.cards-btn {
+  width: 4rem;
+  height: 2.5rem;
+  background-color: #1cba9f;
+  border-radius: 12px;
+  border: none;
+}
+
+.cards-btn:hover {
+  transform: translateY(-5%);
+  cursor: pointer;
+}
+
+.cards-btn svg {
+  font-size: 1.7rem;
+  color: white;
+}
+
+/* Responsive styles for different screen sizes */
+
+/* Styles for small screens (mobile) */
+/* Styles for small screens (mobile) */
+@media only screen and (max-width: 767px) {
+  .cards-container {
+    padding: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  .cards {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .cards-icon {
+    position: relative; /* Change from absolute to relative */
+    margin: 0 auto; /* Center horizontally */
+    margin-top: 0.5rem; /* Adjust to avoid overlap */
+    margin-bottom: -1rem;
+  }
+
+  .cards-btn {
+    margin-bottom: 1rem; /* Adjust for better spacing */
+  }
+}
+
+/* Styles for medium screens (tablet) */
+@media only screen and (max-width: 990px) and (min-width: 768px) {
+  .cards-container {
+    padding: 2rem;
+  }
+
+  .cards {
+    width: calc(50% - 16px);
+  }
+
+  .cards-icon {
+    position: relative; /* Change from absolute to relative */
+    margin: 0 auto; /* Center horizontally */
+    margin-top: 0.5rem; /* Adjust to avoid overlap */
+    margin-bottom: -1rem;
+  }
+
+  .cards-btn {
+    margin-bottom: 3rem;
+  }
+}
+
+/* Styles for large screens (desktop) */
+@media only screen and (min-width: 1500px) {
+  .cards-container {
+    padding: 3.5rem;
+    background-image: linear-gradient(to bottom, #fff 30%, #9dffb1 100%);
+  }
+
+  .cards {
+    width: calc(33.33% - 16px);
+  }
+
+  .cards-icon {
+    position: relative; /* Change from absolute to relative */
+    margin: 0 auto; /* Center horizontally */
+    margin-top: 0.5rem; /* Adjust to avoid overlap */
+    margin-bottom: -1.5rem;
+  }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1499px) {
+  .cards-container {
+    padding: 3.5rem;
+    background-image: linear-gradient(to bottom, #fff 30%, #9dffb1 100%);
+  }
+
+  .cards {
+    width: calc(33.33% - 16px);
+  }
+
+  .cards-icon {
+    position: relative; /* Change from absolute to relative */
+    margin: 0 auto; /* Center horizontally */
+    margin-top: 0.5rem; /* Adjust to avoid overlap */
+    margin-bottom: -1.5rem;
+  }
+}

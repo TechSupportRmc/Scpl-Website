@@ -1,0 +1,64 @@
+/* CreateUser.css */
+.container-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -2rem;
+  }
+  
+  .user-signup {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 20px;
+  }
+  
+  .user-title-signup h1 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .user-sign {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-sign label {
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+  
+  .user-sign input,
+  .user-sign select {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.25rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .user-sign button {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #0d9649;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 20px;
+  }
+  
+  .user-sign button:hover {
+    background-color: #39a568;
+  }
+  
+  .toast-container {
+    font-size: 0.875rem;
+  }
+  

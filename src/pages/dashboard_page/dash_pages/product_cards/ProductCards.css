@@ -1,0 +1,93 @@
+.add-product{
+    width: 8rem;
+    height: 2.5rem;
+    font-size: 13px;
+    background-color: #0d9649;
+    margin-bottom: 1rem;
+    margin-left: 57rem;
+    margin-top: 0.5rem;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+
+#addProductModal{
+    background-color: rgb(255, 255, 255);
+}
+.edit-form{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+}
+.edit-form h2{
+    margin-top: 1.5rem;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.edit-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+.edit-form input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.productcard-btn{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.close-button{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+
+/* table style */
+
+
+.product-table h2{
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.editbutton {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .deletebutton {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-top: 1.2rem;
+  }
+
+/* Responsive styles for screens larger than 1118px */

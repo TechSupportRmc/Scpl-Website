@@ -1,0 +1,166 @@
+.bg-complian {
+  height: 90vh;
+  overflow: hidden;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  clip-path: polygon(100% 0, 0 0, 0 100%, 25% 89%, 100% 100%);
+  background-image: radial-gradient(circle at top right, rgba(255, 255, 255, 0) 20%, #524944 100%), url('../../../public//compliance.webp') !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.complian img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  opacity: 0.87;
+}
+
+.complian-overlay {
+  position: absolute;
+  top: 60%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  z-index: 2;
+}
+
+.complian-overlay h2 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+  margin-left: 1rem;
+}
+
+/* Actual Content start */
+
+.complian-container {
+  margin-left: 6.5rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  width: 60rem;
+  /* border-right: 1px solid black; */
+}
+
+.complian-container a {
+  /* margin-left: 30px;  */
+  color: blue;
+
+}
+
+.complian-container i {
+  margin-left: -2rem;
+  margin-right: 13px;
+  color: black;
+}
+
+
+/* section first start */
+.section_1 h4 {
+  margin-top: 3rem;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.section_1 p {
+  margin-left: 30px;
+  margin-bottom: 1rem;
+}
+
+.section_1 a {
+  /* margin-top: 1rem; */
+  color: blue;
+  margin-bottom: 1rem;
+  margin-left: 30px;
+}
+
+/* section second start */
+.section_2 h4 {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.section_2 a {
+  margin-bottom: 1rem;
+  margin-left: 30px;
+}
+
+.section_2 p {
+  margin-top: 1.5rem;
+  margin-left: 30px;
+  margin-bottom: 1rem;
+}
+
+/* section three start */
+
+.section_3 h4 {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.section_3 p {
+  margin-left: 30px;
+  margin-bottom: 2rem;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+  .complian-container {
+    width: 80%;
+    /* Adjust width for smaller screens */
+    margin-left: 2rem;
+    /* Adjust margin for smaller screens */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .complian-overlay h2 {
+    font-size: 2rem;
+    margin-left: 4rem;
+  }
+
+  .complian-container {
+    width: 90%;
+    /* Adjust width for even smaller screens */
+    margin-left: 1rem;
+    /* Adjust margin for even smaller screens */
+  }
+
+  .section_3 {
+    margin-bottom: -20rem;
+  }
+
+  /* You may need to further adjust styles for smaller screens */
+}
+
+.compliance-item p:not(.text-normal) {
+  position: relative;
+  padding-left: 30px;
+  padding-right: 6rem;
+}
+
+.compliance-item p:not(.text-normal)::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  /* Circle color */
+  border-radius: 50%;
+  /* Makes it a circle */
+}
+
+
+.text-normal {
+  color: black;
+  margin-left: 28px;
+}

@@ -1,0 +1,56 @@
+/* Card.css */
+.cardcerti-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 4rem -10px; 
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.cardscerti {
+    width: calc(33.33% - 20px); /* Calculating width for three cards in a row */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 10px; /* Added margin to create space between cards */
+    text-align: center;
+    box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+@media (max-width: 768px) {
+    .cardscerti {
+        width: calc(50% - 20px); /* Adjusting width for two cards in a row on smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .cardscerti {
+        width: calc(100% - 20px); /* Adjusting width for single card in a row on even smaller screens */
+    }
+}
+
+.cardscerti img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.cardscerti h3 {
+    margin-top: 10px;
+}
+
+.cardscerti button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cardscerti button:hover {
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+}

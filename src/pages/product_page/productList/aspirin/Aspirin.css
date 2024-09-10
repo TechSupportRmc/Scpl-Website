@@ -1,0 +1,142 @@
+.bg-product_7{
+    height: 90vh;
+      overflow: hidden;
+      position: relative;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      clip-path: polygon(100% 0, 0 0, 0 100%, 25% 89%, 100% 100%);
+      background-image: radial-gradient(circle at top right,rgba(255,255,255,0) 20%,#524944 100%),url('../../../../../public/product-mg/aspirin.png')!important;      
+      background-size: cover;
+      top: 2rem;
+  }
+  .product_7 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.87;
+    fill: white;
+  }
+  .product_7-overlay{
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    z-index: 2;
+  }
+  .product_7-overlay h2{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    margin-left: 7rem;
+   }
+  .product_7-overlay P{
+    color: #fff;
+  }
+  
+  .product_7-overlay img{
+    position: relative;
+    width: 9.5rem;
+    height: auto;
+    margin-left: 7rem;
+  }
+  
+
+  .product_7-side_data{
+    margin-top: 12rem;
+    margin-left: 47rem;
+  }
+
+ 
+  .molecular_p-7,
+  .wt_p-7,
+  .cas_p-7{
+    margin-bottom: 1rem;
+  }
+  
+  .molecular_p-7 h3,
+  .wt_p-7 h3,
+  .cas_p-7 h3{
+    color: white;
+  }
+  .molecular_p-7,
+  .wt_p-7,
+  .cas_p-7 h4{
+    color:rgba(255,255,255,0.5);
+  }
+  
+  .back-link{
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+    position: absolute;
+    margin-top: -3rem;
+    margin-left: 17rem;
+  }
+  .back-link a{
+    font-size: 1rem;
+    font-weight: 660;
+  }
+
+
+
+@media screen and (max-width: 1024px) {
+  .product_7-overlay {
+    top: 50%; /* Adjust vertical position for smaller screens */
+    left: 50%; /* Adjust horizontal position for smaller screens */
+    transform: translate(-50%, -50%);
+  }
+
+  .product_7-overlay img {
+    width: 7.5rem; /* Adjust image size for smaller screens */
+    margin-left: -12rem; /* Adjust image margin for smaller screens */
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .bg-product_7{
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .product_7-overlay {
+    top: 40%; /* Adjust vertical position for even smaller screens */
+    left: 50%; /* Adjust horizontal position for even smaller screens */
+    transform: translate(-50%, -50%);
+  }
+  .product_7 h2{
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+  .product_7 p{
+    margin-top: 6rem;
+    margin-left: 1rem;
+  }
+  .product_7-overlay img {
+    width: 6rem; /* Adjust image size for even smaller screens */
+    margin-left: 2rem; /* Adjust image margin for even smaller screens */
+  }
+
+  .two-column-section {
+    margin-top: 3rem;
+    margin-bottom: 22rem;
+  }
+
+  .back-link{
+    margin-left: 1.5rem;
+  }
+}
+/* @media only screen and (max-width: 1500px) {
+
+  .product_7-side_data{
+    margin-top: 24.5rem;
+  }
+} */
+
+@media  screen and (min-width:1500px) {
+  .product_7-side_data{
+    margin-top: 24.5rem;
+  }
+}

@@ -1,0 +1,376 @@
+* {
+  box-sizing: border-box;
+}
+
+.hero {
+  position: relative;
+  background: url('https://img.freepik.com/free-photo/minimalistic-science-banner-with-sample_23-2149431133.jpg?w=1060&t=st=1708598726~exp=1708599326~hmac=8685b2b4bc103cba3b7883810104fc86523a2c8f06ec9c43009fb928abf04ef5');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 110vh;
+  max-width: 100%;
+  overflow: hidden;
+  opacity: 0.89;
+}
+
+.container_content {
+  position: absolute;
+  margin-left: 27rem;
+  /* Adjust as needed */
+  margin-top: -28rem;
+}
+
+.container_content h2 {
+  font-size: 1.9rem;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+.container_content h3 {
+  font-size: 1.3rem;
+  color: #1cba9f;
+}
+
+.container_content p {
+  font-size: 1.2rem;
+  padding-right: 7rem;
+}
+
+.hero_btn {
+  margin-top: 1.5rem;
+  font-weight: 600;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 10rem;
+  color: white;
+  background-color: #0d9649;
+}
+
+.hero_btn a {
+  font-size: 18px;
+  font-weight: 550;
+  text-decoration: none;
+  color: white;
+}
+
+.hero_btn:hover {
+  transform: translateY(-5%);
+}
+
+@keyframes blinkUpDown {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.blinkingUpDown {
+  animation: blinkUpDown 1s infinite;
+}
+
+/* Media Queries for Responsive Design */
+
+/* Medium screens (tablets) */
+/* @media only screen and (min-width: 768px) {
+  .container_content {
+    margin-left: 5rem; 
+    margin-top: -22rem; 
+  }
+} */
+/* @media only screen and (max-width: 1500px){
+  .container_content {
+    margin-left: 28rem; 
+    margin-top: -34rem; 
+  }
+  .hero{
+    background: url('https://img.freepik.com/free-vector/white-background-with-blue-tech-hexagon_1017-19366.jpg?w=740&t=st=1708587561~exp=1708588161~hmac=ccbe74f590699a9563d2d7e19ebd2d69c4e1aadcfccb35e883512294ecdd04b1');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+  }
+  .container_content h2 {
+    font-size: 2.5rem;
+  }
+  .container_content h3 {
+    font-size: 1.5rem;
+  }
+  .container_content p {
+    font-size: 1.3rem;
+    padding-right: 18rem;
+  }
+} */
+
+/* Large screens (desktops) */
+@media only screen and (min-width: 1500px) {
+  #homesection{
+      font-size: 2.6em;
+  }
+  .container_content h2 {
+    font-size: 3rem;
+  }
+
+  .container_content h3 {
+    font-size: 2rem;
+  }
+
+  .container_content p {
+    font-size: 1.7rem;
+    padding-right: 13rem;
+  }
+
+  .container_content {
+    margin-left: 30rem;
+    margin-top: -31rem;
+  }
+  .min-screen {
+    position: relative;
+  }
+  
+  .min-screen .screen-box {
+    display: none;
+  }
+  
+  .min-screen .screen-box.active {
+    display: block;
+  }
+  
+  .min-screen .screen-box .screen {
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  .min-screen .screen-box .screen video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    animation: fadein 0.4s linear;
+  }
+  
+  @keyframes fadein {
+    0% {
+      transform: scale(1.4);
+    }
+  }
+  
+  .min-screen .screen-box .screen .content {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-flow: column;
+    background: rgba(72, 72, 72, 0.7);
+  }
+  
+  #homesection{
+    text-align: center;
+    color: white;
+    padding-left: 17rem;
+    padding-right: 17rem;
+    font-size: 2.6em;
+  }
+  .hero-sub_heading{
+    color: #1e00ff;
+  }
+  .min-screen .screen-box .screen .content .btn {
+    display: inline-block;
+    padding: 0.5rem 4rem;
+    background: none;
+    border: 0.2rem solid #333;
+    color: rgb(224, 224, 224);
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.2s linear;
+    animation: anymat 0.4s linear 0.2s backwards;
+  }
+  
+  @keyframes anymat {
+    0% {
+      opacity: 0;
+      transform: scale(0.5) translateY(-50px);
+    }
+  }
+  
+  @keyframes blink {
+  
+    0%,
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  
+    50% {
+      opacity: 0.8;
+      transform: translateY(-10px);
+    }
+  }
+  
+  
+  .blink {
+    animation: blink 2s infinite;
+  }
+}
+
+@media screen and (max-width:990px) and (min-width:768px) {
+
+  .container_content {
+    margin-left: 10rem;
+    margin-top: -31rem;
+  }
+  
+}
+
+/* Small screens (mobile) */
+@media only screen and (max-width: 767px) {
+
+  .container_content {
+    margin-left: 1rem;
+    margin-top: -29rem;
+    padding: 15px 27px;
+  }
+
+  .container_content h2 {
+    font-size: 1.5rem;
+  }
+
+  .container_content h3 {
+    font-size: 1.1rem;
+  }
+
+  .container_content p {
+    font-size: 1rem;
+    padding-right: 1rem;
+    /* Adjust as needed */
+  }
+
+  .hero_btn {
+    width: 8rem;
+  }
+
+  #homesection {
+    font-size: 2rem;
+    margin-left: 0rem;
+  }
+}
+
+
+
+/* video section css */
+
+.min-screen {
+  position: relative;
+}
+
+.min-screen .screen-box {
+  display: none;
+}
+
+.min-screen .screen-box.active {
+  display: block;
+}
+
+.min-screen .screen-box .screen {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.min-screen .screen-box .screen video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  animation: fadein 0.4s linear;
+}
+
+@keyframes fadein {
+  0% {
+    transform: scale(1.4);
+  }
+}
+
+.min-screen .screen-box .screen .content {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-flow: column;
+  background: rgba(72, 72, 72, 0.7);
+}
+
+#homesection{
+  text-align: center;
+  color: white;
+  padding-left: 17rem;
+  padding-right: 17rem;
+  font-size: 2.6em;
+  font-weight: bold;
+}
+.hero-sub_heading{
+  color: #6dff24;
+  font-weight: bold;
+}
+.min-screen .screen-box .screen .content .btn {
+  display: inline-block;
+  padding: 0.5rem 4rem;
+  background: none;
+  border: 0.2rem solid #333;
+  color: rgb(224, 224, 224);
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 0.2s linear;
+  animation: anymat 0.4s linear 0.2s backwards;
+}
+
+@keyframes anymat {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) translateY(-50px);
+  }
+}
+
+@keyframes blink {
+
+  0%,
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  50% {
+    opacity: 0.8;
+    transform: translateY(-10px);
+  }
+}
+
+
+.blink {
+  animation: blink 2s infinite;
+}

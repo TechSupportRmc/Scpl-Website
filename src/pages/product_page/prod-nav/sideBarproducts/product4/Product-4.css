@@ -1,0 +1,220 @@
+
+.prod-4-right-content {
+    position: absolute;
+    margin-top: 2.7rem;
+    margin-left: 28rem;
+    border: 1px solid #e6ebed;;
+    width: 43rem;
+    height: 30.5rem;
+  }
+  .prod-4-right-content h1{
+    text-align: center;
+    color: #1cba9f;
+    font-weight: bold;
+  }
+  .prod-4-right-content p{
+    text-align: center;
+    color: black;
+  }
+  .prod-4-right-content span{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+  }
+  .product4-content{
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+  }
+  .product4-content h3{
+    color: #1cba9f;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+ 
+  .product4-content p{
+    margin-top: -9px;
+    text-align: left;
+}
+
+.product-4-image{
+  position: absolute;
+  width: 14rem;
+  height: 2rem;
+  margin-top: -11rem;
+  margin-left: 26.5rem;
+}
+
+.product-4-image img{
+    width: 16rem;
+}
+.product-4-btn{
+  position: absolute;
+  margin-left: 19rem;
+  margin-top: 5.5rem;
+  width: 8rem;
+  height: 2rem;
+  background-color: #1cba9f;
+  color: white;
+  border: none;
+}
+
+.product-4-btn a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Styles for small screens (mobile) */
+@media only screen and (max-width: 767px) {
+  .prod-4-right-content {
+    margin-left: 1rem;
+    position: absolute;
+    border: 1px solid #e6ebed;
+    width: 90%;
+    margin-top: 29rem;
+    height: 65%;
+  }
+
+  .prod-4-right-content h1 {
+    text-align: center;
+    color: #1cba9f;
+  }
+
+  .product4-content {
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+  }
+
+  .product4-content h3 {
+    color: #1cba9f;
+  }
+
+  .product4-content p {
+    margin-top: 10px;
+    text-align: left;
+  }
+
+  .product-4-image {
+    margin-left: 11rem;
+    position: absolute;
+    width: 56%;
+    margin-top: -14rem;
+  }
+
+  .product-4-image img {
+    width: 80%;
+  }
+
+  .product-4-btn {
+    margin-left: 6rem;
+    position: absolute;
+    margin-top: 0.5rem;
+    width: 43%;
+    background-color: #1cba9f;
+    color: white;
+    border: none;
+  }
+
+  .product-4-btn a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+/* Styles for medium screens (tablet) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .prod-4-right-content {
+    margin-left: 1rem;
+    position: absolute;
+    border: 1px solid #e6ebed;
+    width: 90%;
+    margin-top: 29rem;
+    height: 41%;
+  }
+
+  .prod-4-right-content h1 {
+    text-align: center;
+    color: #1cba9f;
+  }
+
+  .product4-content {
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+  }
+
+  .product4-content h3 {
+    color: #1cba9f;
+  }
+
+  .product4-content p {
+    margin-top: 10px;
+    text-align: left;
+  }
+
+  .product-4-image {
+    margin-left: 30rem;
+    position: absolute;
+    width: 58%;
+    margin-top: -20rem;
+  }
+
+  .product-4-image img {
+    width: 70%;
+  }
+
+  .product-4-btn {
+    margin-left: 21rem;
+    position: absolute;
+    margin-top: 1.2rem;
+    width: 20%;
+    background-color: #1cba9f;
+    color: white;
+    border: none;
+    margin-bottom: 5rem;
+  }
+
+  .product-4-btn a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+/* Styles for large screens (desktop) */
+@media only screen and (min-width: 992px) {
+  .prod-4-right-content {
+    position: absolute;
+    margin-top: 2.7rem;
+    margin-left: 28rem;
+    border: 1px solid #e6ebed;
+    width: 43rem;
+    height: 30.5rem;
+  }
+
+  .product4-content {
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+  }
+
+  .product-4-image {
+    position: absolute;
+    width: 14rem;
+    height: 2rem;
+    margin-top: -17rem;
+    margin-left: 25.5rem;
+  }
+
+  .product-4-btn {
+    position: absolute;
+    margin-left: 19rem;
+    margin-top: 2.5rem;
+    width: 8rem;
+    height: 2rem;
+    background-color: #1cba9f;
+    color: white;
+    border: none;
+  }
+
+  .product-4-btn a {
+    color: white;
+    text-decoration: none;
+  }
+}
